@@ -1,0 +1,40 @@
+.main .card {
+    background-color: #dfdfdf;
+    border-radius: 0;
+    border: none;
+}
+
+.main .image {
+    position: relative;
+    perspective: 600px;
+    padding: 15%;
+    padding-left: 10%;
+}
+
+.main .card img {
+    width: 80%;
+    object-fit: contain;
+    transform-style: preserve-3d;
+    transform: rotateY(25deg);
+}
+
+.main .card .bottom {
+    width: 100%;
+    padding-bottom: 70%;
+    filter: drop-shadow(-5px 5px 5px #000000dd);
+}
+
+.main .card .top {
+    width: 80%;
+    position: absolute;
+    top: 26%;
+    left: 25%;
+    filter: drop-shadow(-86px 20px 20px #00000080);
+}
+
+@media screen and (max-width: 573px) {
+    .main .card .top {
+        left: 15%;
+        filter: drop-shadow(-36px 20px 20px #00000080);
+    }
+}

@@ -1,0 +1,29 @@
+.main .card {
+    aspect-ratio: 1;
+    border-radius: 0;
+    border: none;
+}
+
+.main .c1 {
+    background-color: #d8d8d8;
+}
+
+.main .c2 {
+    background-color: #cccccc;
+}
+
+.main .c3 {
+    background-color: #e7e7e7;
+}
+
+.main .image {
+    perspective: 600px;
+}
+
+.main .card img {
+    width: 60%;
+    object-fit: contain;
+    filter: drop-shadow(-5px 25px 15px #000000dd);
+    transform-style: preserve-3d;
+    transform: rotateX(45deg) rotateZ(-20deg);
+}

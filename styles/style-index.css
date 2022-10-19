@@ -1,0 +1,148 @@
+.hero {
+    background-color: #E7E7E7;
+}
+
+.hero .carousel-control-prev,
+.hero .carousel-control-next {
+    opacity: 1!important;
+}
+
+.hero .controls {
+    top: -60px;
+    left: 50px;
+}
+
+.hero .ctrl {
+    width: 36px;
+    height: 36px;
+}
+
+.hero .carousel-control-next {
+    left: 60px;
+}
+
+.hero .ctrl img {
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 36px;
+    height: 36px;
+    padding: 10px;
+}
+
+.hero .ctrl img:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero .carousel-item {
+    transition-duration: 0.3s;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 575px) {
+    .hero h1 {
+        font-size: 26px;
+    }
+}
+
+.hero strong {
+    font-weight: 800;
+}
+
+.hero .carousel-item img {
+    object-fit: contain;
+    height: 400px;
+}
+
+.cards {
+    font-family: 'Playfair';
+    background: linear-gradient(#E7E7E7, white);
+}
+
+.cards .one {
+    background-color: #cecece;
+}
+
+.cards .two {
+    background-color: #dbdbdb;
+}
+
+.cards .three {
+    background-color: #d3d3d3;
+}
+
+.cards .four {
+    background-color: #c9c9c9;
+}
+
+.cards .five {
+    background-color: #dddddd;
+}
+
+.cards .six {
+    background-color: #d1d1d1;
+}
+
+.cards .card {
+    aspect-ratio: 1.2;
+    border-radius: 0;
+    border: none;
+}
+
+.cards .card img {
+    width: 90%;
+    height: 40%;
+    object-fit: contain;
+    object-position: center;
+    filter: saturate(0.6)
+            brightness(1.4)
+            drop-shadow(0 -1px #ffffff)
+            drop-shadow(-1px 0 #ffffff)
+            drop-shadow(1px 0 #ffffff)
+            drop-shadow(0 1px #ffffff)
+            drop-shadow(0 0 1px #000000);
+}
+
+.cards .card .grow {
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .15s ease;
+}
+
+.cards .card:hover .grow {
+    height: 90px;
+}
+
+.cards .outter {
+    padding: 20px 40px;
+}
+
+.cards .subtitle {
+    opacity: 0;
+    transition: .5s ease;
+    transition-delay: .15s;
+}
+
+.cards h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cards p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.cards .card:hover .subtitle {
+    opacity: 1;
+}
