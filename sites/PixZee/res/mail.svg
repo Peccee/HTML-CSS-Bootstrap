@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 32" width="48" height="32">
+	<title>contact</title>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #ffffff } 
+	</style>
+	<g id="contact">
+		<path id="mail" class="s0" d="m16.18 17.63l7.83 5.05l7.93-5.13l13.13 14.41h-41.91l13.02-14.32zm-16.23 10.74l0.06-24.95l13.2 11.79l-13.26 13.15zm45.12-28.34l-20.9 18.1l-20.65-18.1h41.56zm-10.17 15.19l13.01-11.79l0.06 24.5l-13.07-12.71z" />
+	</g>
+</svg>

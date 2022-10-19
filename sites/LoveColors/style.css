@@ -1,0 +1,50 @@
+html,
+body {
+    background-color: #f1f1f1;
+    font-family: 'Outfit', sans-serif;
+}
+
+.navigation {
+    background-color: #FFFFFF;
+}
+
+a {
+    font-size: 0.8rem;
+}
+
+.hero {
+    background-color: #30C9E8;
+}
+
+.hero svg {
+    height: 50px;
+    width: 50px;
+}
+
+.hero h1 {
+    letter-spacing: 0.2rem;
+    word-spacing: 1rem;
+    font-weight: 300;
+}
+
+.btn {
+    background-color: #FE4330;
+}
+
+.cards {
+    margin-top: -170px;
+    margin-bottom: 100px;
+}
+
+.cards img {
+    width: 80px;
+}
+
+.cards h5 {
+    font-weight: 600;
+}
+
+.cards p {
+    line-height: 1.2rem;
+    font-size: 14px;
+}
